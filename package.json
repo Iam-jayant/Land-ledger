@@ -1,0 +1,55 @@
+{
+  "name": "landledger-blockchain",
+  "version": "1.0.0",
+  "description": "LandLedger - Advanced Blockchain Land Registry System for India",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test",
+    "ganache": "ganache-cli -p 7545 -h 0.0.0.0 --deterministic --accounts 10 --hardfork istanbul --gasLimit 12000000 --gasPrice 20000000000",
+    "console": "truffle console",
+    "develop": "truffle develop",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "coverage": "truffle run coverage",
+    "flatten": "truffle-flattener contracts/LandRegistry.sol > flattened/LandRegistry_flat.sol"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "land-registry",
+    "real-estate",
+    "india",
+    "web3",
+    "smart-contracts",
+    "ipfs",
+    "defi"
+  ],
+  "author": "LandLedger Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "chai": "^4.3.8",
+    "ganache-cli": "^6.12.2",
+    "solhint": "^3.6.2",
+    "solidity-coverage": "^0.8.5",
+    "truffle": "^5.11.5",
+    "truffle-flattener": "^1.6.0",
+    "truffle-plugin-verify": "^0.6.7",
+    "web3": "^1.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landledger/blockchain"
+  },
+  "bugs": {
+    "url": "https://github.com/landledger/blockchain/issues"
+  },
+  "homepage": "https://landledger.io"
+}
