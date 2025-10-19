@@ -11,32 +11,40 @@
 - [-] 2. Implement ERC-3643 compliant smart contracts
 
 
-  - [-] 2.1 Create IdentityRegistry contract for KYC claims management
+  - [x] 2.1 Create IdentityRegistry contract for KYC claims management
+
 
 
     - Implement on-chain identity verification and claim storage
     - Add functions for verifier role management and claim revocation
     - _Requirements: 3.3, 3.4, 3.5_
 
-  - [ ] 2.2 Develop Compliance contract with transfer restrictions
+  - [x] 2.2 Develop Compliance contract with transfer restrictions
+
+
 
     - Implement transfer eligibility checking logic
     - Add jurisdiction and regulatory rule enforcement
     - Create batch compliance verification for mobile optimization
     - _Requirements: 3.1, 3.4, 3.5_
 
-  - [ ] 2.3 Build PropertyToken contract (ERC-3643 + ERC-721 hybrid)
+  - [x] 2.3 Build PropertyToken contract (ERC-3643 + ERC-721 hybrid)
+
+
 
     - Implement unique property tokenization with compliance gates
     - Add IPFS metadata URI integration and SPV mapping
     - Include mobile-optimized gas efficiency features
     - _Requirements: 2.3, 2.4, 7.4_
 
+
+
   - [ ] 2.4 Create MarketplaceEscrow contract for secure transactions
 
     - Implement atomic swap functionality for payment and token transfer
     - Add multi-party approval workflow and escrow management
     - Include event emission for mobile real-time updates
+
     - _Requirements: 5.2, 5.3, 5.4, 6.4_
 
   - [ ] 2.5 Write comprehensive smart contract tests
